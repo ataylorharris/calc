@@ -1,0 +1,65 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script src="javascript.js" defer></script>   
+</head>
+<div id = "calc">
+<body id = "body">
+<div id = "screen">
+
+<input type="text" value="0" name="display" id="display" disabled>
+<input type="text" value="" name="display" id="display2" disabled>
+</div>
+
+<div class="buttons">
+
+<div class="row1">
+   
+<div class="button" ><button id="button" value ="7" type="submit" onclick="getValue('7.0')">7</button></div>
+<div class="button"><button id ="button" value = "8" type="submit" onclick="getValue('8')">8</button></div>
+<div class="button"><button id ="button" value = "9" type="submit" onclick="getValue('9')">9</button></div>
+<div class="button"><button id ="operator" value = "+" type="submit" onclick="probl('+') ">+</button>
+</div>
+<div class="divider"></div>
+<div class="row2">
+<div class="button"><button id ="button" value = "4" type="submit" onclick="getValue('4')">4</button></div>
+<div class="button"><button id ="button" value = "5.0" type="submit" onclick="getValue('5')">5</button></div>
+<div class="button"><button id ="button" value = "6" type="submit" onclick="getValue('6')">6</button></div>
+<div class="button"><button id ="operator" value = "-" type="submit" onclick="probl('-') ">-</button></div>
+</div>
+<div class="divider"></div>
+<div class="row3">
+<div class="button"><button id ="button" value = "1" type="submit" onclick="getValue('1')">1</button></div>
+<div class="button"><button id ="button" value = "2" type="submit" onclick="getValue('2')">2</button></div>
+<div class="button"><button id ="button" value = "3" type="submit" onclick="getValue('3')">3</button></div>
+<div class="button"><button id ="operator" value = "*" type="submit" onclick="probl('*') ">x</button></div>
+<div class="divider"></div>
+</div>
+<div clas="row4">
+<div class="button"><button id ="button" value = "+/-" type="submit" onclick=negativenum()>+/-</button></div>
+<div class="button"><button id ="button" value = "0" type="submit" onclick="getValue('0')">0</button></div>
+<div class="button"><button id ="button" value = "." type="submit" onclick="sec()">.</button></div>
+
+<div class="button"><button id ="operator" value = "/" type="submit" onclick="probl('/') ">/</button></div></div>
+
+<div class="extra">
+    <div class="button"><button id ="button" value = "clear" type="submit" onclick="clscrn()">C</button></div>
+    <div class="button"><button style= "width: 140px;" id ="button" value = "=" type="submit" onclick="equation() ">=</button></div> 
+    <div class="button"><button id ="button1" value = "backspace" type="submit" onclick=" backspace () ">b</button></div></div>
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</body>
+
+
+
+
+</html>
